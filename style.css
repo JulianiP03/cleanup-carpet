@@ -9,7 +9,10 @@ body {
 .hero {
   position: relative;
   height: 90vh;
-  background: url("https://i.postimg.cc/q7rK0zLg/Fundo-capa-site-cleanup.jpg") center/cover no-repeat;
+  background: url("https://i.postimg.cc/q7rK0zLg/Fundo-capa-site-cleanup.jpg");
+  background-size:cover;
+  background-position:center 20%;
+  Background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,4 +142,25 @@ footer {
   width: 120px;
   height: auto;
   z-index: 10;
+}
+
+.service-area {
+  margin-top: 20px;
+}
+
+.highlight {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.sub-highlight {
+  font-size: 16px;
+  color: #e0e0e0;
+  margin-top: 5px;
+}
+
+/* Efeito leve de destaque */
+.service-area strong {
+  color: #ffd700;
 }

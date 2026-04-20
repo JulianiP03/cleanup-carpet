@@ -7,11 +7,27 @@
  
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18010583864"></script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-  gtag('config', 'AW-18010583864');
+gtag('config', 'AW-18010583864');
+</script>
+
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18010583864/uaAFCJK5lJ8cELjmjoxD',
+      'event_callback': callback
+  });
+  return false;
+}
 </script>
 
   <title>CleanUp Carpet | Limpeza Profissional de Carpetes</title>
@@ -38,12 +54,11 @@
 </div>
 
     <div class="buttons">
-      <a class="btn-primary" 
-         href="https://wa.me/351918700644?text=Quero%20um%20Orçamento%20para%20Carpete" 
-         onclick="gtag('event','conversion',{'send_to':'AW-18010583864/uaAFCJKSJ8cELjmjoxD'});">
-         Pedir Orçamento no WhatsApp
+     <a class="btn-primary"
+href="https://wa.me/351918706644?text=Quero%20um%20orçamento%20para%20carpete"
+onclick="return gtag_report_conversion('https://wa.me/351918706644?text=Quero%20um%20orçamento%20para%20carpete')">
+Pedir Orçamento no WhatsApp
 </a>
-
 
       <a class="btn-secondary" href="mailto:cleanupcarpet@gmail.com?subject=Orçamento CleanUp Carpet">
         Solicitar por E-mail

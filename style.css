@@ -34,7 +34,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 52px;
+  font-size: 44px;
   margin-bottom: 10px;
 }
 
@@ -139,7 +139,7 @@ footer {
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 120px;
+  width: 150px;
   height: auto;
   z-index: 10;
 }

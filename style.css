@@ -296,6 +296,7 @@ h1, h2, h3 {
   object-fit: cover;
   object-position: 75% center;
   width: 100%;
+  height: auto;
 }
 
 .hero-visual-tag {

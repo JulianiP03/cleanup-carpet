@@ -294,6 +294,7 @@ h1, h2, h3 {
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
   aspect-ratio: 4/5;
   object-fit: cover;
+  object-position: 75% center;
   width: 100%;
 }
 

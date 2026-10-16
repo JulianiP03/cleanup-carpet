@@ -6,8 +6,8 @@
   --color-surface: #ffffff;
   --color-ink: #10263f;
   --color-ink-dark: #0a1b2e;
-  --color-teal: #2f9c8f;
-  --color-teal-dark: #227568;
+  --color-teal: #22786d;
+  --color-teal-dark: #1a5c53;
   --color-teal-light: #e4f3f1;
   --color-sand: #d8c9a3;
   --color-text: #1e1e1e;
@@ -163,7 +163,7 @@ h1, h2, h3 {
   position: relative;
   background:
     linear-gradient(180deg, rgba(10, 27, 46, 0.88) 0%, rgba(16, 38, 63, 0.82) 55%, rgba(16, 38, 63, 0.94) 100%),
-    url("https://i.postimg.cc/q7rK0zLg/Fundo-capa-site-cleanup.jpg");
+    url("capa.webp");
   background-size: cover;
   background-position: center 20%;
   color: white;
@@ -772,7 +772,7 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-footer a { color: rgba(255, 255, 255, 0.85); text-decoration: none; }
+footer a { color: rgba(255, 255, 255, 0.85); text-decoration: underline; }
 
 /* ============================================
    STICKY MOBILE CTA BAR

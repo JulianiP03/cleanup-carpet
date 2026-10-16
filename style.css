@@ -583,6 +583,7 @@ h1, h2, h3 {
 
 .before-after-img {
   width: 100%;
+  height: auto;
   border-radius: var(--radius-md);
   aspect-ratio: 1/1;
   object-fit: cover;

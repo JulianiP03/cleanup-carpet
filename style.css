@@ -79,6 +79,7 @@ h1, h2, h3 {
 
 .topbar-inner {
   max-width: var(--max-width);
+  height: 64px;
   margin: 0 auto;
   padding: 12px 24px;
   display: flex;
